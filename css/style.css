@@ -51,19 +51,39 @@ header ul li a {
     margin: 20px 0;
 
 }
-.content .text a {
+button {
     text-decoration: none;
     background-color: #fff;
     color: #000;
     padding: 8px 15px;
     border-radius: 20px;
+    transition:0.5s ;
+    text-transform: uppercase;
+    border: none;
+
 }
+button:hover{
+    background-color: #008cff;
+    transform: translateY(-5px);
+    color: #fff;
+}
+a{
+    transition:0.5s ;
+    padding: 8px;
+    border-radius: 10px;
+
+}
+a:hover{
+    background-color: #008cff;
+    transform: translateY(-5px);
+    color: #fff;
+} 
 
 .content .image{
     width: 30%;
 }
 .content .image img{
-    width: 180px;
+    width: 300px;
 }
 .icons{
     position: absolute;
